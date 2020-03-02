@@ -1,1 +1,3 @@
-# react-assignment-1
+React learning assignment 1
+
+Run npm start command to run this app.
