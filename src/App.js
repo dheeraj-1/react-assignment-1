@@ -9,10 +9,13 @@ class App extends Component {
     username: "Dheeraj"
   }
   render() {
+    const style = {
+      "text-decoration": "underline"
+    };
     return (
       <div className="App">
         <h1>This is react app!</h1>
-        <h2>Assignment 1</h2>
+        <h2  style={style}>Assignment 1</h2>
         <UserInput changeHandler = {this.userInputHandler} username={this.state.username}></UserInput>
         <UserOutput username = { this.state.username}></UserOutput>
         <UserOutput username = { this.state.username}></UserOutput>
